@@ -26,37 +26,27 @@ Start a new session and run `/wordle-hinter`, or just ask for a hint.
 
 Needs `bash`, `curl`, and `python3`.
 
-## The squares mean what they mean in Wordle
-
-|  | In Wordle | Here |
-|---|---|---|
-| ⬜ | The letter isn't in the word | The hint went straight past you |
-| 🟨 | Right letter, wrong place | You used the word without realizing |
-| 🟩 | Right letter, right place | You named it as the answer |
-
-Most of your day is gray. That's the game working.
-
 ## What it does
 
 All of this happens while Claude does your actual work. The game never gets in the way of
 the answer.
 
-- ⬜ **You just chat normally** → the word slips into the reply. In a sentence, an example,
+- 🟩 **You just chat normally** → the word slips into the reply. In a sentence, an example,
   a variable name, a test fixture. Once per reply, never bolded, never winked at.
 
-- ⬜ **The day wears on** → hints get louder. Buried at first, twice per reply by hint
+- 📈 **The day wears on** → hints get louder. Buried at first, twice per reply by hint
   three, in a heading by hint six, shameless by ten.
 
-- ⬜ **Midnight gets close** → the clock beats the counter. Under three hours it jumps a
+- ⏰ **Midnight gets close** → the clock beats the counter. Under three hours it jumps a
   tier, under one hour it goes straight to shameless. A hint after midnight is worthless.
 
 - 🤐 **You ask outright** → the entire reply is one emoji. No words, no apology. And the
   next hint lands twice as hard. Begging costs you.
 
-- 🟨 **You use the word by accident** → no confetti, you didn't earn it. Just a nudge:
+- 👀 **You use the word by accident** → no confetti, you didn't earn it. Just a nudge:
   *"You just used today's word and walked straight past it."* It still won't name it.
 
-- 🟩 **You guess it properly** → confetti fills the terminal, and Claude finally shows you
+- 🎉 **You guess it properly** → confetti fills the terminal, and Claude finally shows you
   every place the word was hiding all day.
 
 - 🌙 **Tomorrow** → new word, counter back to zero, subtle again. Yesterday's answer is
