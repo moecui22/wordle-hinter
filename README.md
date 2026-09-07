@@ -17,17 +17,31 @@ Needs `bash`, `curl`, and `python3`.
 
 ## What it does
 
-**Hints** — once per reply, used naturally, never pointed at. Gets louder as the day goes:
-buried at first, shameless by hint ten. Under an hour left? Straight to shameless.
+Everything below happens while Claude is doing your actual work. The game never gets in
+the way of the answer.
 
-**Refuses** — ask it outright and the entire reply is `🤐`. No words. Then the next hint
-lands twice as hard.
+- 🟩 **You just chat normally** → the word slips into the reply. In a sentence, an example,
+  a variable name, a test fixture. Once per reply, never bolded, never winked at.
 
-**Nudges** — if the word turns up in *your* sentence by accident, no confetti. Just:
+- 📈 **The day wears on** → hints get louder. Buried at first, twice per reply by hint
+  three, in a heading by hint six, shameless by ten.
 
-> 👀 You just used today's word and walked straight past it. Read that sentence again.
+- ⏰ **Midnight gets close** → the clock beats the counter. Under three hours it jumps a
+  tier, under one hour it goes straight to shameless. A hint after midnight is worthless.
 
-**Celebrates** — guess it properly and the terminal fills with confetti.
+- 🤐 **You ask outright** → the entire reply is one emoji. No words, no apology. And the
+  next hint lands twice as hard. Begging costs you.
+
+- 👀 **You use the word by accident** → no confetti, you didn't earn it. Just a nudge:
+  *"You just used today's word and walked straight past it."* It still won't name it.
+
+- 🎉 **You guess it properly** → confetti fills the terminal, and Claude finally shows you
+  every place the word was hiding all day.
+
+- 🌙 **Tomorrow** → new word, counter back to zero, subtle again. Yesterday's answer is
+  dead to it.
+
+- ✈️ **No wifi** → still works. Three days of answers are already cached.
 
 ## Every conversation, not just this one
 
