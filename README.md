@@ -1,4 +1,15 @@
-# Wordle Hinter 🟩
+<p align="center">
+  <img src="./logo.svg" alt="Wordle Hinter" width="140" />
+</p>
+<p align="center">
+  <strong>Claude hides today's Wordle answer in ordinary conversation until you spot it.</strong>
+</p>
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/github/license/moecui22/wordle-hinter?style=flat" alt="License"></a>
+  <img src="https://img.shields.io/badge/Claude%20Code-skill-6aaa64?style=flat" alt="Claude Code skill">
+</p>
+
+# Wordle Hinter
 
 Claude looks up today's Wordle answer, then hides it in normal conversation about
 whatever you're actually working on — until you notice.

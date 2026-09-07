@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" role="img" aria-label="Wordle Hinter: a green tile hidden among gray tiles">
+  <title>Wordle Hinter</title>
+
+  <!-- row 1 -->
+  <rect x="56"  y="56"  width="120" height="120" rx="14" fill="#787c7e"/>
+  <rect x="196" y="56"  width="120" height="120" rx="14" fill="#787c7e"/>
+  <rect x="336" y="56"  width="120" height="120" rx="14" fill="#787c7e"/>
+
+  <!-- row 2 — the answer, sitting in plain sight -->
+  <rect x="56"  y="196" width="120" height="120" rx="14" fill="#787c7e"/>
+  <rect x="196" y="196" width="120" height="120" rx="14" fill="#6aaa64"/>
+  <rect x="336" y="196" width="120" height="120" rx="14" fill="#c9b458"/>
+
+  <!-- row 3 -->
+  <rect x="56"  y="336" width="120" height="120" rx="14" fill="#787c7e"/>
+  <rect x="196" y="336" width="120" height="120" rx="14" fill="#787c7e"/>
+  <rect x="336" y="336" width="120" height="120" rx="14" fill="#787c7e"/>
+</svg>
