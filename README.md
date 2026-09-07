@@ -28,21 +28,19 @@ Needs `bash`, `curl`, and `python3`.
 
 ## What it does
 
-All of this happens while Claude does your actual work. The game never gets in the way of
-the answer.
+Claude keeps doing your real work. The hints ride along.
 
-- 🟩 **It hints** → the word slips into a normal reply, once each time, never bolded and
-  never winked at. Gets louder as the day goes: buried at first, shameless by hint ten.
+- 🟩 **Hints** — the word appears once per reply, used normally. Never bolded, never
+  pointed at. Hints get louder through the day.
 
-- 🤐 **It refuses** → ask outright and the entire reply is one emoji. No words, no apology.
-  Then the next hint lands twice as hard. Begging costs you.
+- 🤐 **Refuses** — ask for the answer and you get one emoji. No words. The next hint is
+  louder still.
 
-- 🎉 **It celebrates** → guess it and confetti fills the terminal. Use it by accident and
-  you only get a nudge — you didn't earn confetti, and it still won't name the word.
+- 🎉 **Celebrates** — guess right and confetti fills the terminal. Use the word by
+  accident and you get a nudge instead.
 
-The clock matters too. With under an hour before the puzzle flips, the hints stop being
-subtle — a clever nudge at 11:58pm is a wasted one. Midnight resets everything: new word,
-counter back to zero, and yesterday's answer is never mentioned again.
+In the last hour before the puzzle changes, hints stop being subtle. At midnight
+everything resets: new word, count back to zero.
 
 ## Every conversation, not just this one
 
