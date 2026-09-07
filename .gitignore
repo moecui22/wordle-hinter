@@ -1,0 +1,3 @@
+# Cached Wordle answers, hint counters, and solved markers.
+# NEVER commit this — it contains today's answer and several days ahead of it.
+.cache/
