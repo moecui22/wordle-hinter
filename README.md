@@ -2,7 +2,7 @@
   <img src="./logo.svg" alt="Wordle Hinter" width="140" />
 </p>
 <p align="center">
-  <strong>Claude hides today's Wordle answer in ordinary conversation until you spot it.</strong>
+  <strong>Claude hints by using the Wordle word of the day, whenever you need one.</strong>
 </p>
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/github/license/moecui22/wordle-hinter?style=flat" alt="License"></a>
