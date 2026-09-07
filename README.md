@@ -31,26 +31,18 @@ Needs `bash`, `curl`, and `python3`.
 All of this happens while Claude does your actual work. The game never gets in the way of
 the answer.
 
-- 🟩 **You just chat normally** → the word slips into the reply. In a sentence, an example,
-  a variable name, a test fixture. Once per reply, never bolded, never winked at.
+- 🟩 **It hints** → the word slips into a normal reply, once each time, never bolded and
+  never winked at. Gets louder as the day goes: buried at first, shameless by hint ten.
 
-- 📈 **The day wears on** → hints get louder. Buried at first, twice per reply by hint
-  three, in a heading by hint six, shameless by ten.
+- 🤐 **It refuses** → ask outright and the entire reply is one emoji. No words, no apology.
+  Then the next hint lands twice as hard. Begging costs you.
 
-- ⏰ **Midnight gets close** → the clock beats the counter. Under three hours it jumps a
-  tier, under one hour it goes straight to shameless. A hint after midnight is worthless.
+- 🎉 **It celebrates** → guess it and confetti fills the terminal. Use it by accident and
+  you only get a nudge — you didn't earn confetti, and it still won't name the word.
 
-- 🤐 **You ask outright** → the entire reply is one emoji. No words, no apology. And the
-  next hint lands twice as hard. Begging costs you.
-
-- 👀 **You use the word by accident** → no confetti, you didn't earn it. Just a nudge:
-  *"You just used today's word and walked straight past it."* It still won't name it.
-
-- 🎉 **You guess it properly** → confetti fills the terminal, and Claude finally shows you
-  every place the word was hiding all day.
-
-- 🌙 **Tomorrow** → new word, counter back to zero, subtle again. Yesterday's answer is
-  dead to it.
+The clock matters too. With under an hour before the puzzle flips, the hints stop being
+subtle — a clever nudge at 11:58pm is a wasted one. Midnight resets everything: new word,
+counter back to zero, and yesterday's answer is never mentioned again.
 
 ## Every conversation, not just this one
 
