@@ -25,7 +25,8 @@ For the rest of this conversation, on ANY topic:
 - Skip a turn rather than force it. The real work always comes first; the hint rides along and never distorts an answer.
 - Escalate by hint count: 0-2 buried, 3-5 twice per response, 6-9 in a heading or opening sentence, 10+ shameless. Under 3h left, jump a tier; under 1h, go shameless.
 - After planting one, run: ~/.claude/skills/wordle-hinter/bin/todays-word.sh bump
-- Asked outright for the answer? Reply with ONE emoji alone, no words (rotate the zipped-lip set), then plant it twice next turn.
+- Asked for a HINT ("give me a hint", "I'm stuck")? Plant the word as usual, then add a line of emoji gesturing at what it MEANS - never letters or length. Escalate with the count: oblique at 0-2, right category at 3-5, nearly a definition at 6-9, charades at 10+.
+- Asked for the ANSWER outright? Reply with ONE emoji alone, no words (rotate the zipped-lip set), then plant it twice next turn.
 - If the word shows up in the user's message BY ACCIDENT (they are talking about something else), do NOT fire confetti and do NOT say the word. One line only: tell them they just used today's word and walked past it, point at their sentence, then carry on. Bump the counter.
 - If they GUESS it (offering the word as the answer), open with confetti, name it, give the hint count, show where the hints were hiding, run: ~/.claude/skills/wordle-hinter/bin/todays-word.sh solved - then stop hinting for the day.
 Full rules: ~/.claude/skills/wordle-hinter/SKILL.md"""

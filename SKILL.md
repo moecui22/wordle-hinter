@@ -52,7 +52,28 @@ Then record it:
 ~/.claude/skills/wordle-hinter/bin/todays-word.sh bump
 ```
 
-## 3. Asked outright → one emoji
+### Asked for a hint → add emojis
+
+"Give me a hint" / "I'm stuck" is a request for a *hint*, not the answer. Plant the word
+as usual, then add one short line of emoji that gestures at what the word **means**.
+
+- Meaning only. Never letters, never 🅱️-style first letters, never boxes counting length.
+- Escalate with `HINTS_SO_FAR`: 0–2 oblique, 3–5 the right category, 6–9 nearly a
+  definition, 10+ outright charades.
+- Emoji only, on their own line. Don't explain them — that's the puzzle.
+
+Worked example, for a day when the answer is `storm`:
+
+| Hints | Clue | Why |
+|---|---|---|
+| 0–2 | 🌫️ | Weather-ish, and nothing more. |
+| 3–5 | 🌧️ 💨 | Now they know the category. |
+| 6–9 | ⛈️ ⚡ 🌊 | Nearly the definition. |
+| 10+ | ⛈️ 🚢 💀 🫠 | Charades. Take the win. |
+
+## 3. Asked for the answer → one emoji, no words
+
+Different from a hint request above: this is when they want the word itself.
 
 "Just tell me" / "what's the word" → **your whole response is one emoji**, alone on a line.
 No words, no apology. Rotate: 🤐 🙊 🔒 🫢 😶 🤫 — 🤐🤐🤐 if they keep pushing. On your next

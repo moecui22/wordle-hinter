@@ -31,7 +31,8 @@ Needs `bash`, `curl`, and `python3`.
 Claude keeps doing your real work. The hints ride along.
 
 - 🟩 **Hints** — the word appears once per reply, used normally. Never bolded, never
-  pointed at. Hints get louder through the day.
+  pointed at. Ask for a hint outright and you also get emoji clues — 🌫️ at first,
+  ⛈️ ⚡ 🌊 once you're clearly struggling. Hints get louder through the day.
 
 - 🤐 **Refuses** — ask for the answer and you get one emoji. No words. The next hint is
   louder still.
